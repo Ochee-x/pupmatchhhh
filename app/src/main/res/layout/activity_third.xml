@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EC5858"
+    android:padding="16dp">
+
+    <View
+        android:id="@+id/circle"
+        android:layout_width="395dp"
+        android:layout_height="360dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-95dp"
+        android:layout_marginTop="-11dp"
+        android:background="@drawable/circle_background" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/circle"
+        android:layout_centerHorizontal="true"
+        android:text="PUP Match: Connect. Explore. Belong."
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginTop="32dp" />
+
+
+    <Button
+        android:id="@+id/get_started_button"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="132dp"
+        android:backgroundTint="#E47A7A"
+        android:text="Get Started" />
+</RelativeLayout>

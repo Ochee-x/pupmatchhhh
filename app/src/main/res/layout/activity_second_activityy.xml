@@ -15,32 +15,40 @@
         android:layout_marginTop="-11dp"
         android:background="@drawable/circle_background" />
 
+    <!-- Replace with your arrow drawable -->
+
     <TextView
         android:id="@+id/title"
-        android:layout_width="wrap_content"
+        android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/circle"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="35dp"
         android:text="PUP Match: Discover Your
 Tribe "
         android:textColor="#FFFFFF"
-        android:textSize="24sp"
-        android:layout_marginTop="32dp" />
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/description"
-        android:layout_width="wrap_content"
+        android:layout_width="294dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/title"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="8dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="95dp"
         android:fontFamily="sans-serif"
         android:padding="16dp"
         android:text="Stop waiting, start connecting!"
+        android:textAlignment="textStart"
         android:textColor="#FFFFFF"
         android:textSize="16sp" />
 
-    <!-- Replace with your arrow drawable -->
     <ImageView
         android:id="@+id/arrow"
         android:layout_width="48dp"
@@ -52,8 +60,7 @@ Tribe "
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="41dp"
-        android:src="@drawable/right"
-        android:contentDescription="Next" />
+        android:src="@drawable/right" />
 
 
 </RelativeLayout>
