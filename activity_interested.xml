@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTint="#000000"
+    tools:context=".Interested">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="333dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#FFF8F8"
+        android:foregroundTint="#682828"
+        android:text="Man"
+        android:textAllCaps="false"
+        android:textColor="#0D0C0C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.602"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.351" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="333dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#FFF8F8"
+        android:foregroundTint="#682828"
+        android:text="Woman"
+        android:textAllCaps="false"
+        android:textColor="#0D0C0C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.602"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="333dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#FFF8F8"
+        android:foregroundTint="#682828"
+        android:text="Beyond Binary"
+        android:textAllCaps="false"
+        android:textColor="#0D0C0C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.602"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="333dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#FFF8F8"
+        android:foregroundTint="#682828"
+        android:text="Everyone"
+        android:textAllCaps="false"
+        android:textColor="#0D0C0C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.602"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.596" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="349dp"
+        android:layout_height="39dp"
+        android:foregroundTint="#000000"
+        android:text="Select all that apply to help us recommend the right people for you"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.257" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="374dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="108dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="Who are you interested in seeing?"
+        android:textColor="#F05959"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/interestbtn"
+        android:layout_width="329dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="88dp"
+        android:background="@drawable/round_corner"
+        android:backgroundTint="#ED5858"
+        android:fontFamily="@font/inter_bold"
+        android:text="Next"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
