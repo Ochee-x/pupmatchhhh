@@ -3,3 +3,12 @@
 
     <style name="Theme.Pupmatch" parent="android:Theme.Material.Light.NoActionBar" />
 </resources>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.FinalApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/reddish_pink</item>
+        <item name="colorPrimaryVariant">@color/reddish_pink</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/black</item>
+    </style>
+</resources>
