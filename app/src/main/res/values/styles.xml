@@ -9,3 +9,24 @@
     </style>
 
 </resources>
+
+<resources>
+
+    <!-- App Theme -->
+    <style name="Theme.FinalApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/reddish_pink</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:textColorPrimary">@color/off_white</item>
+        <item name="android:windowBackground">?android:attr/windowBackground</item>
+    </style>
+
+    <!-- Custom Bottom Navigation Selected Indicator -->
+    <style name="App.Custom.Indicator">
+        <item name="android:width">64dp</item>
+        <item name="android:height">32dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/nav_indicator_background</item>
+    </style>
+
+</resources>
